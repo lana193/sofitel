@@ -1,0 +1,298 @@
+/* GENERAL STYLES START*/
+body {
+	font-family: Arial, San_Serif;
+	font-size: 100%;
+	background: url(../images/background11.jpg) no-repeat center top / cover;
+	margin: 0; /* defoultni vidstupy */
+	padding: 0;
+}
+
+div {
+	box-sizing: border-box; /* padding doesen't count */
+}
+
+a {
+	text-decoration: none; /* bez pidkreslennia */
+	color: black;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	margin: 0 auto; /* po centri */
+	background-color: white;
+	width: 960px;
+}
+
+.clearafix:after {
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+/* GENERAL STYLES END */
+
+/* HEADER START */
+#head {
+	background: url(../images/background8.jpg) no-repeat center top / cover;
+	height: 50px;
+	width: 960px;
+	position: fixed;
+	z-index: 9999;
+
+}
+
+nav {
+	float: right;
+}
+
+.logo {
+	width: 120px;
+	height: 50px;
+	float: left;
+}
+
+.menu_list {
+	float: left;
+	display: block;
+	margin-right: 41px;
+	list-style-type: none;
+	position: relative;
+}
+
+.submenu {
+	background: url(../images/background8.jpg) no-repeat center top / cover;
+	position: absolute;
+	border: 2px solid grey;
+	opacity: 0;
+}
+
+.menu a {
+	text-transform: uppercase;
+	line-height: 4em;
+	font-size: 11px;
+	font-weight: bold;
+	color: black;
+	padding-top: 7px;
+}
+
+.menu a:hover {
+	color: white;
+}
+
+.menu_list:hover .submenu {
+	opacity: 1;	
+}
+
+.submenu li {
+	padding-left: 20px;
+}
+
+.submenu {
+	box-sizing: border-box; 
+	display: block;
+	height: 130px;
+	width: 150px;
+	background-color: grey;
+	transition: 0.3s opacity;	
+}
+
+.submenu li:nth-child(2) {
+	border-bottom: 1px solid grey;
+	border-top: 1px solid grey;
+}
+/* HEADER END */
+
+/* MAIN SECTION START */
+#main {
+	background: url(../images/main_image.jpg) no-repeat center top / cover;
+	height: 600px;
+}
+/* MAIN SECTION END */
+
+/* CATALOG START */
+.furniture {
+	height: 400px;
+	padding-top: 70px;
+}
+
+.furniture img {
+	height: 200px;
+	width: 200px;
+}
+
+.furniture_section {
+	width: 270px;
+	height: 300px;
+	float: left;
+	text-align: center;
+	font-size: 10px;
+	margin-left: 40px;
+	border: 1px solid grey;
+	background: url(../images/background8.jpg) no-repeat center top / cover;
+}
+
+.furniture_section:last-child {
+	float: right;
+	margin-left: 0px;
+	margin-right: 35px;
+}
+
+.furniture_section:nth-child(2) {
+	margin-left: 40px;
+}
+
+.furniture_section h2 {
+	margin: 0 auto;
+}
+
+.furniture_section a {
+	color: #DCDCDC;
+}
+
+.furniture_section button {
+	margin-top: 10px;
+	background-color: #696969;
+	height: 40px;
+	width: 200px;
+	border-radius: 10%;
+}
+
+.section_image {
+	background-color: white;
+	border: 1px solid grey;
+	width: 240px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+/* CATALOG END */
+
+/* ABOUT START */
+.about {
+	text-align: center;
+	padding-top: 50px;
+	padding-right: 150px;
+	padding-left: 150px;
+	padding-bottom: 0;
+}
+
+.about p {
+	padding: 10px;
+}
+
+#about {
+	height: 600px;
+}
+
+.bold {
+	font-weight: bold;
+}
+/* ABOUT END */
+
+/* CONTACTS START */
+.contacts {
+	text-align: center;
+	padding-top: 50px;
+	padding-right: 150px;
+	padding-left: 150px;
+	padding-bottom: 0;
+}
+
+.contacts p {
+	padding: 10px;
+}
+
+#contacts {
+	height: 600px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+/* CONTACTS END */
+#footer {
+	height: 150px;
+	background: url(../images/background8.jpg) no-repeat center top / cover;
+}
+
+.footer {
+	padding-top: 50px;
+}
+
+.footer_item {
+	float: left;
+	font-size: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.footer_item:last-child {
+	float: right;
+}
+
+
+/* SOFA START*/
+.straight_sofas {
+	height: 3200px;
+}
+
+.corner_sofas {
+	height: 6300px;
+}
+
+.furniture_constriction {
+	height: 300px;
+}
+
+.sofa_img {
+	height: 300px;
+	width: 300px;
+}
+
+.sofa_image {
+	margin-top: 50px;
+	height: 220px;
+	width: 300px;
+}
+
+.sofa_item {
+	width: 300px;
+	height: 350px;
+	width: 50%;
+	float: left;
+	text-align: center;
+	font-size: 10px;
+	padding-left: 40px;
+	border: 1px solid grey;
+}
+
+.sofa_item:last-child {
+	float: right;
+	padding-left: 0px; 
+	padding-right: 35px;
+}
+/* SOFA END*/
+
+
+/*PRODUCT CARD START*/
+.product_card {
+	height: 960px;
+}
+
+.card_image {
+	width: 600px;
+	height: 600px;
+}
+
+.card {
+	margin: 0 auto;
+	width: 600px;
+	height: 600px;
+	text-align: center;
+}
+/*PRODUCT CARD END*/
