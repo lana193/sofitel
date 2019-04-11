@@ -2,7 +2,8 @@
 body {
 	font-family: Arial, San_Serif;
 	font-size: 100%;
-	background: url(../images/background11.jpg) no-repeat center top / cover;
+	background: url(../images/background9.jpg) no-repeat center top / cover;
+	/*background: url(../images/furniture1.jpg) no-repeat fixed 100% 100%;*/
 	margin: 0; /* defoultni vidstupy */
 	padding: 0;
 }
@@ -38,7 +39,8 @@ ul {
 
 /* HEADER START */
 .heading {
-	background: url(../images/background8.jpg) no-repeat center top / cover;
+	/*background: url(../images/background8.jpg) no-repeat center top / cover;*/
+	background-color: #333a44;
 	height: 50px;
 	width: 960px;
 	border: 1px solid grey;
@@ -63,16 +65,11 @@ nav {
 	position: relative;
 }
 
-.submenu {
-	position: absolute;
-	opacity: 0;
-}
-
 .menu a {
 	text-transform: uppercase;
 	font-size: 11px;
 	font-weight: bold;
-	color: black;
+	color: #FFFFF0;
 }
 
 .menu li {
@@ -98,11 +95,19 @@ nav {
 	opacity: 1;	
 }
 
+.submenu {
+	position: absolute;
+	margin-top: 15px;
+	box-sizing: border-box; 
+	float: left;
+	opacity: 0;
+}
+
 .submenu li {
 	padding-top: 10px;
-	background: url(../images/background8.jpg) no-repeat center top / cover;
+	background-color: #333a44;
 	height: 40px;
-	width: 150px;
+	width: 160px;
 	border: 1px solid grey;
 }
 
@@ -111,14 +116,21 @@ nav {
 /* MAIN SECTION START */
 #main {
 	background: url(../images/main_image.jpg) no-repeat center top / cover;
-	height: 600px;
+	height: 700px;
+	padding-top: 50px;
 }
 /* MAIN SECTION END */
 
 /* CATALOG START */
+.catalog_info {
+	display: block;
+	padding: 50px 40px 0px 40px;
+	text-align: center;
+	font-size: 17px;
+}
 .furniture {
 	height: 400px;
-	padding-top: 70px;
+	padding-top: 40px;
 }
 
 .furniture img {
@@ -232,12 +244,14 @@ nav {
 /* CONTACTS END */
 #footer {
 	height: 150px;
-	background: url(../images/background8.jpg) no-repeat center top / cover;
+	background-color: #333a44;
+	/*background: url(../images/background8.jpg) no-repeat center top / cover;*/
 	border: 1px solid grey;
 }
 
 .footer {
 	padding-top: 50px;
+	color: #FFFFF0;
 }
 
 .footer_item {
@@ -271,14 +285,14 @@ nav {
 }
 
 .sofa_image {
-	margin-top: 50px;
-	height: 220px;
-	width: 300px;
+	height: 300px;
+	width: 320px;
+	/*border: 1px solid grey;*/
 }
 
 .sofa_item {
-	width: 300px;
-	height: 350px;
+	width: 400px;
+	height: 330px;
 	width: 50%;
 	float: left;
 	text-align: center;
