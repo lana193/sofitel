@@ -3,6 +3,7 @@ body {
 	font-family: Arial, San_Serif;
 	font-size: 100%;
 	background: url(../images/background_medium.jpg) no-repeat fixed center; 
+	background-size: cover;
 	margin: 0; /* defoultni vidstupy */
 	padding: 0;
 }
@@ -67,12 +68,7 @@ nav {
 	padding: 0px;
 	font-family: Bradley Hand, cursive;
 }
-/*.menu ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}
-*/
+
 .menu_list {
 	float: left;
 	display: block;
@@ -462,6 +458,7 @@ nav {
 /*PRODUCT CARD START*/
 .product_card {
 	height: 960px;
+	padding-top: 100px;
 }
 
 .card_image {
@@ -473,8 +470,12 @@ nav {
 	margin: 0 auto;
 	width: 600px;
 	height: 600px;
+}
+
+.card h2 {
 	text-align: center;
 }
+
 /*PRODUCT CARD END*/
 
 /*FURNITURE CONSTRICTION START*/
