@@ -7,27 +7,27 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 
-
 	<body>
 		<!--HEADER-->
 		<header>
 			<div class="container">
-				<div class="heading clearfix" id="head">
+				<div class="heading clearfix" id="heading">
 					<img src="images/logo.png" alt="Sofitel" class="logo">
+					<p class="phone">(096) 406-01-43,<br> (063) 486-48-88</p>
 					
 					<!--NAVIGATION-->
 					<nav>
 						<ul class="menu">
 							<li class="menu_list"><a href="index.html">Головна</a></li>
-							<li class="menu_list"><a href="#">Каталог</a>
+							<li class="menu_list"><a href="catalog.html">Каталог</a>
 								<ul class="submenu">
 									<li><a href="straight_sofas.html">Прямі дивани</a></li>
 									<li><a href="corner_sofas.html">Кутові дивани</a></li>
-									<li><a href="#">Перетяжка меблів</a></li>
+									<li><a href="constriction.html">Перетяжка меблів</a></li>
 								</ul>
 							</li>
 							<li class="menu_list"><a href="about.html">Про нас</a></li>
-							<li class="menu_list"><a href="#">Замовлення</a></li>
+							<li class="menu_list"><a href="delivery.html">Доставка</a></li>
 							<li class="menu_list"><a href="contacts.html">Контакти</a></li>
 						</ul>
 					</nav>
@@ -40,14 +40,26 @@
 		<!--Section About-->
 		<section>
 			<div class="container" id="about">
-				<div class="about">
-					<h2>Про нас</h2>
-					<div>
-						<h3>Меблева компанія «SOFITEL»</h3>
-						<p>Ми пропонуємо широкий спектр меблів на різні смаки!</p>
+				<div>
+					<h2 class="about_header">Про нас</h2>
+					<div class="about">
+						<h3 class="about_subheader">Меблева компанія «SOFITEL»</h3>
+						<p class="about_p">Ми пропонуємо широкий спектр меблів на різні смаки!</p>
 						<p>Наповнити житло теплом і затишком допомагає якісний та продуманий інтер’єр. Саме комфортний внутрішній дизайн приміщення дає людині чудово відпочити і розслабитись у себе вдома. Одним із найбільш важливих компонентів для створення особливої затишної атмосфери в кожній оселі виступають м’які  меблі.</p>
-						<p>Команда молодих і талановитих однодумців компанії <span class="bold"><bold>«SOFITEL»</bold> </span> пропонує  великий асортимент м’яких меблів різних стилів. У нас Ви знайдете вироби для комфортного облаштування житла, та формування в ньому особливого естетичного вигляду. Творчий підхід до проектування різноманітних моделей, високий професіоналізм у виготовленні всіх зразків, дозволяють нам створювати вироби, що будуть  яскравими акцентами в інтер’єрах будь-яких приміщень. Наші меблі якісні й ергономічні, вишукані та комфортні, стильні та максимально зручні у користуванні.</p>
-						<p></p>
+						<p>Команда молодих і талановитих однодумців компанії <span class="bold"><bold>«SOFITEL»</bold> </span> пропонує  великий асортимент м’яких меблів різних стилів. У нас Ви знайдете вироби для комфортного облаштування житла, та формування в ньому особливого естетичного вигляду.</p> 
+						<p>Творчий підхід до проектування різноманітних моделей, високий професіоналізм у виготовленні всіх зразків, дозволяють нам створювати вироби, що будуть  яскравими акцентами в інтер’єрах будь-яких приміщень. Наші меблі якісні й ергономічні, вишукані та комфортні, стильні та максимально зручні у користуванні.</p>
+						<h2 class="about_header">Чому варто обрати нас?</h2>
+						<ul>
+							<li>
+								<span class="relative"><img src="images/check-symbol.png" alt="Done symbol" class="done_symbol"></span><span class="bold italic">ЯКІСТЬ</span> – ми виробляємо для Вас м'які меблі, що мають високі споживчі властивості: довговічність конструкції, простота трансформації, функціональність, міцність, комфорт і зручність у використанні.
+							</li>
+							<li>
+								<span class="relative"><img src="images/check-symbol.png" alt="Done symbol" class="done_symbol"></span></span><span class="bold italic">НАДІЙНІСТЬ</span> – ми робимо зручні і гармонійні меблі, здатні вірно прослужити Вам довгі роки, радуючи і даруючи лише задоволення.
+							</li>
+							<li>
+								<span class="relative"><img src="images/check-symbol.png" alt="Done symbol" class="done_symbol"></span></span><span class="bold italic">ІНДИВІДУАЛЬНИЙ ПІДХІД</span> – ми любимо наші дивани і прагнемо до того, щоб і Ви їх полюбили. Ви можете придбати у нас якісні м'які меблі, створені з урахуванням Ваших потреб, побажань і можливостей.
+							</li>
+						</ul>
 					</div>
 				</div>
 			</div>	
@@ -57,12 +69,38 @@
 		<!--FOOTER-->
 		<footer>
 			<div class="container" id="footer">
-				<div class="footer clearfix">
-				<p class="footer_item">Sofitel 2019</p>
-				<p class="footer_item">Тел. (096) 406-01-43, <br> (063) 486-48-88 </p>
+				<div class="footer">
+					<p class="footer_info">Sofitel 2019</p>
+					<div class="footer_contacts">
+						<div class="footer_contact">
+							<img src="images/smartphone.png" alt="Mobile" class="social_icon">
+							<div class="social_info">
+								<p>(096) 406-01-43, <br> (063) 486-48-88 </p>
+							</div>
+						</div>
+						<div class="footer_contact">
+							<img src="images/email.png" alt="Email" class="social_icon">
+							<div class="social_info">
+								<p class="social_p"><a href="mailto:sofitelmebli@ukr.net">sofitelmebli@ukr.net</a></p>
+							</div>
+						</div>
+						<div class="footer_contact">
+							<img src="images/facebook.png" alt="Facebook" class="social_icon icon_hover">
+							<div class="social_info">
+								<p class="social_p"><a href="https://www.facebook.com/sofitelmebli/">Facebook</a></p>
+							</div>
+						</div>
+						<div class="footer_contact">
+							<img src="images/instagram.png" alt="Instagram" class="social_icon">
+							<div class="social_info">
+								<p class="social_p"><a href="https://www.instagram.com/sofitelmebli/">Insagram</a></p>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</footer>
 		<!--/FOOTER-->
+
 	</body>
 </html>
