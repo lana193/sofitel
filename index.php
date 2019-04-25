@@ -1,46 +1,48 @@
-<!DOCTYPE html>
-	<html>
-	<head>
-		<title>Про нас | Sofitel</title>
-		<meta charset="UTF-8">
-		<link rel="stylesheet" type="text/css" href="css/normalize.css">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-	</head>
+<?php
+	$page_title = "М'яка фурнітура | Sofitel";
+	include ("header.html");
+?>
 
-	<body>
-		<!--HEADER-->
-		<header>
-			<div class="container">
-				<div class="heading clearfix" id="heading">
-					<img src="images/logo.png" alt="Sofitel" class="logo">
-					<p class="phone">(096) 406-01-43,<br> (063) 486-48-88</p>
-					
-					<!--NAVIGATION-->
-					<nav>
-						<ul class="menu">
-							<li class="menu_list"><a href="index.html">Головна</a></li>
-							<li class="menu_list"><a href="catalog.html">Каталог</a>
-								<ul class="submenu">
-									<li><a href="straight_sofas.html">Прямі дивани</a></li>
-									<li><a href="corner_sofas.html">Кутові дивани</a></li>
-									<li><a href="constriction.html">Перетяжка меблів</a></li>
-								</ul>
-							</li>
-							<li class="menu_list"><a href="about.html">Про нас</a></li>
-							<li class="menu_list"><a href="delivery.html">Доставка</a></li>
-							<li class="menu_list"><a href="contacts.html">Контакти</a></li>
-						</ul>
-					</nav>
-					<!--/NAVIGATION-->
+		<section>
+			<div class="container" id="main">
 			</div>
-		</div>
-		</header>
-		<!--/HEADER-->
+		</section>
 
+
+		<!--Section catalog-->
+		<section>
+			<div class="container" id="catalog_section">
+				<div class="catalog">
+					<p><span class="bold"><bold>Меблева компанія SOFITEL</bold></span> надає послуги з виготовлення м'яких меблів усіх стилів і модифікацій, а також послуги по перетяжці та реставрації меблів.
+					</p>
+				</div>
+				<div class="furniture clearfix">
+					<div class="furniture_section">
+						<div class="section_image"><a href="straight_sofas.html"><img src="images/straight_sofas.jpg" alt="Straight_sofas">
+						</div>
+						<button class="section_header"><h2>Прямі дивани</h2>
+						</button></a>
+					</div>
+					<div class="furniture_section">
+						<div class="section_image"><a href="corner_sofas.html"><img src="images/corner_sofas.jpg" alt="Corner_sofas">
+						</div>
+						<button class="section_header"><h2>Кутові дивани</h2>
+						</button></a>
+					</div>
+					<div class="furniture_section">
+						<div class="section_image"><a href="constriction.html"><img src="images/sofa_constriction.png" alt="Furniture constriction">
+						</div>
+						<button class="section_header"><h2>Перетяжка меблів</h2>
+						</button></a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--/Section catalog-->
 
 		<!--Section About-->
 		<section>
-			<div class="container" id="about">
+			<div class="container" id="about_section">
 				<div>
 					<h2 class="about_header">Про нас</h2>
 					<div class="about">
@@ -54,8 +56,7 @@
 							<li>
 								<span class="relative"><img src="images/check-symbol.png" alt="Done symbol" class="done_symbol"></span><span class="bold italic">ЯКІСТЬ</span> – ми виробляємо для Вас м'які меблі, що мають високі споживчі властивості: довговічність конструкції, простота трансформації, функціональність, міцність, комфорт і зручність у використанні.
 							</li>
-							<li>
-								<span class="relative"><img src="images/check-symbol.png" alt="Done symbol" class="done_symbol"></span></span><span class="bold italic">НАДІЙНІСТЬ</span> – ми робимо зручні і гармонійні меблі, здатні вірно прослужити Вам довгі роки, радуючи і даруючи лише задоволення.
+							<li><span class="relative"><img src="images/check-symbol.png" alt="Done symbol" class="done_symbol"></span></span><span class="bold italic">НАДІЙНІСТЬ</span> – ми робимо зручні і гармонійні меблі, здатні вірно прослужити Вам довгі роки, радуючи і даруючи лише задоволення.
 							</li>
 							<li>
 								<span class="relative"><img src="images/check-symbol.png" alt="Done symbol" class="done_symbol"></span></span><span class="bold italic">ІНДИВІДУАЛЬНИЙ ПІДХІД</span> – ми любимо наші дивани і прагнемо до того, щоб і Ви їх полюбили. Ви можете придбати у нас якісні м'які меблі, створені з урахуванням Ваших потреб, побажань і можливостей.
@@ -67,40 +68,6 @@
 		</section>
 		<!--/Section About-->
 
-		<!--FOOTER-->
-		<footer>
-			<div class="container" id="footer">
-				<div class="footer">
-					<p class="footer_info">Sofitel 2019</p>
-					<div class="footer_contacts">
-						<div class="footer_contact">
-							<img src="images/smartphone.png" alt="Mobile" class="social_icon">
-							<div class="social_info">
-								<p>(096) 406-01-43, <br> (063) 486-48-88 </p>
-							</div>
-						</div>
-						<div class="footer_contact">
-							<img src="images/email.png" alt="Email" class="social_icon">
-							<div class="social_info">
-								<p class="social_p"><a href="mailto:sofitelmebli@ukr.net">sofitelmebli@ukr.net</a></p>
-							</div>
-						</div>
-						<div class="footer_contact">
-							<img src="images/facebook.png" alt="Facebook" class="social_icon icon_hover">
-							<div class="social_info">
-								<p class="social_p"><a href="https://www.facebook.com/sofitelmebli/">Facebook</a></p>
-							</div>
-						</div>
-						<div class="footer_contact">
-							<img src="images/instagram.png" alt="Instagram" class="social_icon">
-							<div class="social_info">
-								<p class="social_p"><a href="https://www.instagram.com/sofitelmebli/">Insagram</a></p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</footer>
-		<!--/FOOTER-->
-	</body>
-</html>
+<?php
+	include("footer.html");
+?>

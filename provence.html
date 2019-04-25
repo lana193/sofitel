@@ -5,6 +5,8 @@
 		<meta charset="UTF-8">
 		<link rel="stylesheet" type="text/css" href="css/normalize.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<!-- <script type="text/javascript" src="https://jquery.com/jquery-3.4.0.slim.min.js">
+		</script> -->
 	</head>
 
 
@@ -38,23 +40,70 @@
 		</header>
 		<!--/HEADER-->
 
-		<!--Section katalog-->
+		<!--PRODUCT CARD-->
 		<section>
 			<div class="container" id="product_card">
 				<div class="product_card">
 					<div class="card">
-						<h2>Прованс</h2>
-						<img src="images/provence1.jpg" alt="Provence" class="card_image">
-						<p><span class="bold">Опис товару:</span> Ця ошатна та комфортабельна модель підійде до будь-якого інтер'єру.</p>
-						<p><span class="bold">Механізм трансформації:</span> єврокнижка - пантограф.</p>
-						<p><span class="bold">Розміри:</span> 2.5*1.0, сп.м. 1.95*1.5</p>
-						<p><span class="bold">Ціна:</span> від 9800 грн.</p>
+						<h2>Диван Прованс</h2>
+						<div class="slider">
+							<div class="slider_arrow prev_arrow">
+							<button id="show_previous"> < </button>
+						</div>
+						<div class="current_img">
+							<img src="" id="slide_image" alt="Provence" class="card_image">
+						</div>
+						<div class="slider_arrow next_arrow">
+							<button id="show_next"> > </button>
+						</div>
+						</div>
+						<div classs = "product_images">
+						<table class = "image_table">
+							<tr>
+								<td><img src="images/provence1.jpg" alt="Provence" class="table_image"></td>
+								<td><img src="images/provence_side_view.png" alt="Provence" class="table_image"></td>
+								<td><img src="images/provence_full_size.png" alt="Provence" class="table_image"></td>
+								<td><img src="images/provence1.jpg" alt="Provence" class="table_image"></td>
+							</tr>
+						</table>
+						</div>
+						<div class = "card_table">
+							<table = class = "product_table">
+								<div class = "table_header">
+									<h3>Опис товару</h3>
+								</div>
+								<tr>
+									<th rowspan="3">Розміри:</th>
+									<td><span class = "table_subheader">Довжина </span> – 35</td>
+								</tr>
+								<tr>
+									<td><span class="table_subheader">Ширина</span> – 35</td>
+								</tr>
+									<tr>
+									<td><span class="table_subheader">Розмір спального місця</span> – 35</td>
+								</tr>
 
-					</div>
-				</div>
+								<tr>
+									<th rowspan="3">Характеристики:</th>
+									<td><span class="table_subheader">Механізм трансформації</span> – євро-книжка</td>
+								</tr>
+								<tr>
+									<td><span class="table_subheader">Каркас</span> – натуральне дерево(сосна), ДСП, ДВП</span></td>
+								</tr>
+								<tr>
+									<td><span class="table_subheader">Наповнення</span> – пружинний блок, букові ламелі, пінополіуретан, термовойлок, синтепон, холофайбер</td>
+								</tr>
+								<tr>
+									<th>Комплектація:</th>
+									<td>ніша для білизни, подушки, тканина на вибір</td>
+								</tr>
+							</table>
+						</div>
+					</div> <!-- <div class="card"> -->
+				</div> <!-- <div class="product_card"> -->
 			</div>
 		</section>
-		<!--/Section Katalog-->
+		<!--/PRODUCT CARD-->
 
 
 				<!--FOOTER-->
@@ -92,6 +141,7 @@
 			</div>
 		</footer>
 		<!--/FOOTER-->
-		
+
+		<script type="text/javascript" src="js/script.js"></script>
 	</body>
 </html>

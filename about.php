@@ -1,42 +1,7 @@
-<!DOCTYPE html>
-	<html>
-	<head>
-		<title>Про нас | Sofitel</title>
-		<meta charset="UTF-8">
-		<link rel="stylesheet" type="text/css" href="css/normalize.css">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-	</head>
-
-	<body>
-		<!--HEADER-->
-		<header>
-			<div class="container">
-				<div class="heading clearfix" id="heading">
-					<img src="images/logo.png" alt="Sofitel" class="logo">
-					<p class="phone">(096) 406-01-43,<br> (063) 486-48-88</p>
-					
-					<!--NAVIGATION-->
-					<nav>
-						<ul class="menu">
-							<li class="menu_list"><a href="index.html">Головна</a></li>
-							<li class="menu_list"><a href="catalog.html">Каталог</a>
-								<ul class="submenu">
-									<li><a href="straight_sofas.html">Прямі дивани</a></li>
-									<li><a href="corner_sofas.html">Кутові дивани</a></li>
-									<li><a href="constriction.html">Перетяжка меблів</a></li>
-								</ul>
-							</li>
-							<li class="menu_list"><a href="about.html">Про нас</a></li>
-							<li class="menu_list"><a href="delivery.html">Доставка</a></li>
-							<li class="menu_list"><a href="contacts.html">Контакти</a></li>
-						</ul>
-					</nav>
-					<!--/NAVIGATION-->
-			</div>
-		</div>
-		</header>
-		<!--/HEADER-->
-
+<?php
+	$page_title = "Про нас | Sofitel";
+	include("header.html");
+?>
 
 		<!--Section About-->
 		<section>
@@ -66,41 +31,6 @@
 			</div>	
 		</section>
 		<!--/Section About-->
-
-		<!--FOOTER-->
-		<footer>
-			<div class="container" id="footer">
-				<div class="footer">
-					<p class="footer_info">Sofitel 2019</p>
-					<div class="footer_contacts">
-						<div class="footer_contact">
-							<img src="images/smartphone.png" alt="Mobile" class="social_icon">
-							<div class="social_info">
-								<p>(096) 406-01-43, <br> (063) 486-48-88 </p>
-							</div>
-						</div>
-						<div class="footer_contact">
-							<img src="images/email.png" alt="Email" class="social_icon">
-							<div class="social_info">
-								<p class="social_p"><a href="mailto:sofitelmebli@ukr.net">sofitelmebli@ukr.net</a></p>
-							</div>
-						</div>
-						<div class="footer_contact">
-							<img src="images/facebook.png" alt="Facebook" class="social_icon icon_hover">
-							<div class="social_info">
-								<p class="social_p"><a href="https://www.facebook.com/sofitelmebli/">Facebook</a></p>
-							</div>
-						</div>
-						<div class="footer_contact">
-							<img src="images/instagram.png" alt="Instagram" class="social_icon">
-							<div class="social_info">
-								<p class="social_p"><a href="https://www.instagram.com/sofitelmebli/">Insagram</a></p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</footer>
-		<!--/FOOTER-->
-	</body>
-</html>
+<?php
+	include("footer.html");
+?>
