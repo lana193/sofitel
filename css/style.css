@@ -4,17 +4,17 @@ body {
 	font-size: 100%;
 	background: url(../images/background_medium.jpg) no-repeat fixed center; 
 	background-size: cover;
-	margin: 0; /* defoultni vidstupy */
+	margin: 0;
 	padding: 0;
 }
 
 div {
-	box-sizing: border-box; /* padding doesen't count */
+	box-sizing: border-box;
 	color: black;
 }
 
 a {
-	text-decoration: none; /* bez pidkreslennia */
+	text-decoration: none;
 	color: black;
 }
 
@@ -25,7 +25,7 @@ nav ul {
 }
 
 .container {
-	margin: 0 auto; /* po centri */
+	margin: 0 auto;
 	background-color: white;
 	width: 960px;
 }
@@ -40,7 +40,6 @@ nav ul {
 
 /* HEADER START */
 .heading {
-	/*background-color: #333a44;*/
 	background-color: white;
 	height: 70px;
 	width: 960px;
@@ -101,8 +100,6 @@ nav {
 
 .menu li:hover {
 	transform: scale(1.05);
-	/*box-shadow: 10px 5px 5px black;
-	border: 1px solid grey;*/
 }
 
 .menu_list:hover .submenu {
@@ -266,7 +263,6 @@ nav {
 	font-size: 15px;
 	text-align: center;
 	font-family: Bradley Hand, cursive;
-	/*color: #8B0000;*/
 }
 
 .about p {
@@ -324,8 +320,6 @@ nav {
 .contacts h1 {
 	text-align: center;
 	font-family: Bookman, URW Bookman L, serif;
-	/*color: #8B0000;*/
-	/*color: #8B4513;*/
 	text-transform: uppercase;
 	font-size: 23px;
 }
@@ -356,7 +350,6 @@ nav {
 /* FOOTER START */
 #footer {
 	background-color: white;
-	/*background: url(../images/background8.jpg) no-repeat center top / cover;*/
 }
 
 .footer {
@@ -480,9 +473,7 @@ nav {
 }
 
 .card h3 {
-/*	color: #8B0000;*/
 	font-family: Bradley Hand, cursive;
-/*text-transform: uppercase;*/
 }
 
 .slider {
@@ -524,7 +515,6 @@ nav {
 
 .image_table {
 	margin-left: 10%;
-/*	border: 1px solid red;*/
 }
 
 .table_image {
@@ -598,7 +588,6 @@ nav {
 
 .before_after {
 	display: block;
-	/*border: 1px solid red;*/
 	height: 40px;
 }
 
@@ -622,7 +611,6 @@ nav {
 }
 
 .before_after p {
-	/*border: 1px solid black;*/
 	margin: 0px;
 	padding: 0px;
 }
@@ -689,7 +677,6 @@ nav {
 
 .tissues {
 	display: block;
-	/*border: 1px solid red;*/
 	margin-top: 550px;
 	padding-left: 40px;
 	padding-right: 40px;
